@@ -1,4 +1,4 @@
 websoul
 =======
 
-websoul cms
+Websoul Yii Version
