@@ -1,0 +1,14 @@
+2011/09/27 17:49:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index-test.php".' in D:\web\htdocs\yiitest\framework\web\CController.php:477
+Stack trace:
+#0 D:\web\htdocs\yiitest\framework\web\CController.php(262): CController->missingAction('index-test.php')
+#1 D:\web\htdocs\yiitest\framework\web\CWebApplication.php(277): CController->run('index-test.php')
+#2 D:\web\htdocs\yiitest\framework\web\CWebApplication.php(136): CWebApplication->runController('post/index-test...')
+#3 D:\web\htdocs\yiitest\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#4 D:\web\htdocs\yiitest\index.php(11): CApplication->run()
+#5 {main} REQUEST_URI=/yiitest/index.php/post/index-test.php
+2012/06/06 08:53:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog".' in D:\web\htdocs\yiitest\framework\web\CWebApplication.php:281
+Stack trace:
+#0 D:\web\htdocs\yiitest\framework\web\CWebApplication.php(136): CWebApplication->runController('blog')
+#1 D:\web\htdocs\yiitest\framework\base\CApplication.php(158): CWebApplication->processRequest()
+#2 D:\web\htdocs\yiitest\index-test.php(15): CApplication->run()
+#3 {main} REQUEST_URI=/yiitest/index-test.php/blog
