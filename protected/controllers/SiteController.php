@@ -36,7 +36,13 @@ class SiteController extends Controller
 	        	$this->render('error', $error);
 	    }
 	}
+        
+        public  function actionTestya(){
+               echo "haii";exit();
+        }
 
+
+        
 	/**
 	 * Displays the contact page
 	 */
